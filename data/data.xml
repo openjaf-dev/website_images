@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <!-- Pre loaded images -->
+	<record model="ir.attachment">
+            <field name="name">cenit3</field>
+            <field name="datas_fname">cenit3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/cenit3.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">cenit2</field>
+            <field name="datas_fname">cenit2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/cenit2.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">slide1</field>
+            <field name="datas_fname">slide1.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/slide1.jpg</field>
+        </record>
+        <record model="ir.attachment">
+            <field name="name">slide2</field>
+            <field name="datas_fname">slide2.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/slide2.jpg</field>
+        </record>
+        <record model="ir.attachment">
+            <field name="name">slide3</field>
+            <field name="datas_fname">slide3.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/slide3.jpg</field>
+        </record>
+
+
+        <record model="ir.attachment">
+            <field name="name">blog2</field>
+            <field name="datas_fname">blog2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/blog2.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">blog3</field>
+            <field name="datas_fname">blog3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/blog3.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">blogpost1</field>
+            <field name="datas_fname">blogpost1.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/blogpost1.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">blogpost2</field>
+            <field name="datas_fname">blogpost2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/blogpost2.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">description</field>
+            <field name="datas_fname">description.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/description.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">devices</field>
+            <field name="datas_fname">devices.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/devices.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">devices2</field>
+            <field name="datas_fname">devices2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/devices2.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">devices3</field>
+            <field name="datas_fname">devices3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/devices3.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">feature1</field>
+            <field name="datas_fname">feature1.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/feature1.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">feature2</field>
+            <field name="datas_fname">feature2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/feature2.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">feature3</field>
+            <field name="datas_fname">feature3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/feature3.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">gallery1</field>
+            <field name="datas_fname">gallery1.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/gallery1.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">ship_sea</field>
+            <field name="datas_fname">ship_sea.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website/static/src/img/library/ship_sea.jpg</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">gallery2</field>
+            <field name="datas_fname">gallery2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/gallery2.png</field>
+        </record>
+
+        <record model="ir.attachment">
+            <field name="name">gallery3</field>
+            <field name="datas_fname">gallery3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/gallery3.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">gallery5</field>
+            <field name="datas_fname">gallery5.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/gallery5.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">gallery8</field>
+            <field name="datas_fname">gallery8.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/gallery8.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">gallery9</field>
+            <field name="datas_fname">gallery9.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/gallery9.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">portfolio1</field>
+            <field name="datas_fname">portfolio1.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/portfolio1.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">portfolio3</field>
+            <field name="datas_fname">portfolio3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/portfolio3.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">portfolioitem1</field>
+            <field name="datas_fname">portfolioitem1.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/portfolioitem1.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">portfolioitem2</field>
+            <field name="datas_fname">portfolioitem2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/portfolioitem2.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">portfolioitem3</field>
+            <field name="datas_fname">portfolioitem3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/portfolioitem3.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">portfolioitem4</field>
+            <field name="datas_fname">portfolioitem4.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/portfolioitem4.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">services3</field>
+            <field name="datas_fname">services3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/services3.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">services4</field>
+            <field name="datas_fname">services4.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/services4.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">services5</field>
+            <field name="datas_fname">services5.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/services5.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">services6</field>
+            <field name="datas_fname">services6.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/services6.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">services7</field>
+            <field name="datas_fname">services7.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/services7.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">slider-bg</field>
+            <field name="datas_fname">slider-bg.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/slider-bg.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">ss</field>
+            <field name="datas_fname">ss.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/ss.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">ss2</field>
+            <field name="datas_fname">ss2.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/ss2.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">ss3</field>
+            <field name="datas_fname">ss3.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/ss3.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">business_stats</field>
+            <field name="datas_fname">business_stats.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/business_stats.jpg</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">business_hands</field>
+            <field name="datas_fname">business_hands.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/business_hands.jpg</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">comely</field>
+            <field name="datas_fname">comely.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/comely.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">cenit</field>
+            <field name="datas_fname">cenit.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/cenit.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">800px-Airbus_A300B2_Wing</field>
+            <field name="datas_fname">800px-Airbus_A300B2_Wing.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/800px-Airbus_A300B2_Wing.jpg</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">cenit tecnologico</field>
+            <field name="datas_fname">cenit tecnologico.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/cenit tecnologico.jpg</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">Dscn1171-med</field>
+            <field name="datas_fname">Dscn1171-med.png</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/Dscn1171-med.png</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">index</field>
+            <field name="datas_fname">index.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/index.jpg</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">Tecnologia+002</field>
+            <field name="datas_fname">Tecnologia+002.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/Tecnologia+002.jpg</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">index1</field>
+            <field name="datas_fname">index1.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/index1.jpg</field>
+        </record>
+
+	<record model="ir.attachment">
+            <field name="name">Dscn1175-med</field>
+            <field name="datas_fname">Dscn1175-med.jpg</field>
+            <field name="res_model">ir.ui.view</field>
+            <field name="type">url</field>
+            <field name="url">/website_images/static/src/img/Dscn1175-med.jpg</field>
+        </record>
+    </data>
+</openerp>

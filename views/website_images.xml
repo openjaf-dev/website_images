@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+
+
+<template id="website_images.css_extend" inherit_id="website.theme" name="css_extend">
+<xpath expr="//link[@href='/website/static/src/css/website.css']" position="after">
+	<link href="/website_images/static/src/css/website.css" rel="stylesheet"/>
+</xpath>
+
+</template>
+
+<template id="website_images.theme_cerulean" inherit_id="website.theme_cerulean" name="theme_cerulean">
+<xpath expr="//link[@href='/website/static/src/css/bootswatch/cerulean.min.css']" position="after">
+	<link href="/website_images/static/src/css/cerulean.min.css" rel="stylesheet"/>
+</xpath>
+
+</template>
+
+</data>
+</openerp>
+
